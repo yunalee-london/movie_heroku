@@ -39,6 +39,6 @@ app.get('/', (req, res) => {
     res.send(data)
 })
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Example app running`)
 })
