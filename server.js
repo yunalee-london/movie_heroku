@@ -31,8 +31,11 @@ const data = [
         "synopsis" : "James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
         "release": "2021.04.02",
         "cast_crew": [{"director": "Gary Fukunaga",
+                        "dirImage" : "https://m.media-amazon.com/images/M/MV5BMTU4MTY2ODExMV5BMl5BanBnXkFtZTcwMzEwNzY2NA@@._V1_UY317_CR14,0,214,317_AL_.jpg",
                         "cast1": "Daniel Craig", 
-                        "cast2":"Rami Malek"
+                        "cast1Image": "https://m.media-amazon.com/images/M/MV5BMjEzMjk4NDU4MF5BMl5BanBnXkFtZTcwMDMyNjQzMg@@._V1_UX214_CR0,0,214,317_AL_.jpg",
+                        "cast2":"Rami Malek",
+                        "cast2Image" : "https://m.media-amazon.com/images/M/MV5BODA3OTM4ODU0MV5BMl5BanBnXkFtZTgwNjQ5Njg3NjM@._V1_UX214_CR0,0,214,317_AL_.jpg"
                     }]
     }
 
