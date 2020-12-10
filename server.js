@@ -37,6 +37,36 @@ const data = [
                         "cast2":"Rami Malek",
                         "cast2Image" : "https://m.media-amazon.com/images/M/MV5BODA3OTM4ODU0MV5BMl5BanBnXkFtZTgwNjQ5Njg3NjM@._V1_UX214_CR0,0,214,317_AL_.jpg"
                     }]
+    },
+    { 
+        "title": "Wonder Woman 1984",
+        "image" : "https://www.slashfilm.com/wp/wp-content/images/wonder-woman-1984-poster-new.jpg",
+        "country": "USA",
+        "year": 2020,
+        "synopsis" : "Fast forward to the 1980s as Wonder Woman's next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah.",      
+        "release": "2020.12.16(UK)",
+        "cast_crew": [{"director": "Patty Jenkins",
+                        "dirImage" : "https://m.media-amazon.com/images/M/MV5BMTg4NDA4NTQ5MF5BMl5BanBnXkFtZTgwOTA0Nzc0MzE@._V1_UY317_CR35,0,214,317_AL_.jpg",
+                        "cast1": "Gal Gadot", 
+                        "cast1Image": "https://m.media-amazon.com/images/M/MV5BMjUzZTJmZDItODRjYS00ZGRhLTg2NWQtOGE0YjJhNWVlMjNjXkEyXkFqcGdeQXVyMTg4NDI0NDM@._V1_UY317_CR51,0,214,317_AL_.jpg",
+                        "cast2":"Pedro Pascal",
+                        "cast2Image" : "https://m.media-amazon.com/images/M/MV5BYzQ5Yzg1NzktMDcxNC00ZDc1LWJlMjEtNTg2ZjRlOTk4ZDNjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UY317_CR5,0,214,317_AL_.jpg"
+                    }]
+    },
+    { 
+        "title": "Parasite",
+        "image" : "https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/03/IMG_3746-scaled.jpeg",
+        "country": "South Korea",
+        "year": 2019,
+        "synopsis" : "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+        "release": "2020.02.07(UK)",
+        "cast_crew": [{"director": "Bong Joon Ho",
+                        "dirImage" : "https://m.media-amazon.com/images/M/MV5BOGVmYzZkODgtNTQ3OS00MzgxLTllOGUtZTFjNDc4MmE1ZDcwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY317_CR108,0,214,317_AL_.jpg",
+                        "cast1": "Song Kang-Ho", 
+                        "cast1Image": "https://m.media-amazon.com/images/M/MV5BYjYyYzcyZTAtY2I4Yy00NGE2LThiNzYtYmVjNGIyNWU2YjVkXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_UX214_CR0,0,214,317_AL_.jpg",
+                        "cast2":"Choi Woo-sik",
+                        "cast2Image" : "https://m.media-amazon.com/images/M/MV5BYzZkMzdlOWItMmUwNC00MmY0LTlkNTgtZjVmMGRhNTQwZjcyXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_UX214_CR0,0,214,317_AL_.jpg"
+                    }]
     }
 
 ]
