@@ -16,8 +16,11 @@ const data = [
         "synopsis" : "Jo March reflects back and forth on her life, telling the beloved story of the March sisters - four young women, each determined to live life on her own terms.",
         "release": "2019.12.07",
         "cast_crew": [{"director": "Greta Gerwig",
+                        "dirImage" : "https://m.media-amazon.com/images/M/MV5BNDE5MTIxMTMzMV5BMl5BanBnXkFtZTcwMjMxMDYxOQ@@._V1_UX214_CR0,0,214,317_AL_.jpg",
                         "cast1": "Saoirose Roman", 
-                        "cast2":"Emma Watson"
+                        "cast1Image": "https://m.media-amazon.com/images/M/MV5BMjExNTM5NDE4NV5BMl5BanBnXkFtZTcwNzczMzEzOQ@@._V1_UX214_CR0,0,214,317_AL_.jpg",
+                        "cast2":"Emma Watson",
+                        "cast2Image" : "https://m.media-amazon.com/images/M/MV5BMTQ3ODE2NTMxMV5BMl5BanBnXkFtZTgwOTIzOTQzMjE@._V1_UY317_CR21,0,214,317_AL_.jpg"
                     }]
     },
     { 
