@@ -42,4 +42,4 @@ Castcrew.init({
 Film.hasMany(Castcrew, {as: 'cast_crew'})
 Castcrew.belongsTo(Film)
 
-module.exports = {Film, Castcrew, sequelize}
+module.exports = {Film, Castcrew, Sequelize}

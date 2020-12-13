@@ -1,13 +1,14 @@
 const express = require('express')
 const app = express()
-const PORT = process.env.PORT || 3000;
-const {Film, Castcrew, sequelize} = require('./models')
+const bodyParser = require("body-parser");
+const router = express.Router();
+const PORT = process.env.PORT || 3002;
+const {Film, Castcrew, Sequelize} = require('./models')
 
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
-
-var userMovies = []
+app.use(bodyParser.json())
 
 const goodData = [
     { 
@@ -120,10 +121,15 @@ app.get('/bad', (req, res) => {
     res.send(badData)
 })
 
-app.post('/', async(req,res)=> {
-    await Film.create(req.body)
-    res.redirect('/film')
-})
+router.post('/',(req,res) => {
+    //code to perform particular action.
+    //To access POST variable use req.body()methods.
+    console.log(request.body);
+});
+
+// add router in the Express app.
+app.use("/", router);
+
 app.listen(PORT, () => {
   console.log(`Example app running`)
 })
