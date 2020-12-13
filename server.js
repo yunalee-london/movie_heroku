@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const PORT = process.env.PORT || 3000;
+const {Film, Castcrew, sequelize} = require('./models')
 
 
 app.use(express.urlencoded({ extended: true }))
@@ -119,6 +120,10 @@ app.get('/bad', (req, res) => {
     res.send(badData)
 })
 
+app.post('/', async(req,res)=> {
+    await Film.create(req.body)
+    res.redirect('/film')
+})
 app.listen(PORT, () => {
   console.log(`Example app running`)
 })
