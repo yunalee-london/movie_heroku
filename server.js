@@ -121,14 +121,18 @@ app.get('/bad', (req, res) => {
     res.send(badData)
 })
 
-router.post('/',(req,res) => {
-    //code to perform particular action.
-    //To access POST variable use req.body()methods.
-    console.log(request.body);
-});
+app.post('/', (req, res) => {
+    console.log(req.body)
+    goodData.append(req.body)
+})
+// router.post('/',(req,res) => {
+//     //code to perform particular action.
+//     //To access POST variable use req.body()methods.
+//     console.log(request.body);
+// });
 
-// add router in the Express app.
-app.use("/", router);
+// // add router in the Express app.
+// app.use("/", router);
 
 app.listen(PORT, () => {
   console.log(`Example app running`)
